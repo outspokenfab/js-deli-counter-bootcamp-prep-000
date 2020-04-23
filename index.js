@@ -21,8 +21,8 @@ function nowServing (currentLine){
 function currentLine (line) {
   var annouceAllWaiting = "The line is currently:" ;
   
-  for (let i = 0; i < currentLine.length; i++){
-    annouceAllWaiting = annouceAllWaiting + ((i +1) + ". " + currentLine[i]);
+  for (let i = 0; i < line.length; i++){
+    annouceAllWaiting = annouceAllWaiting + ((i +1) + ". " + line[i]);
   }
   return annouceAllWaiting;
 }
