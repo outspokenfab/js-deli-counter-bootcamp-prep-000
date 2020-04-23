@@ -14,12 +14,3 @@ function nowServing (currentLine){
   currentLine.shift();
   return announcement;
 }
-
-function nowServing (currentLine){
-  do {
-  if(currentLine.length > 0){
-    return "Currently serving " + currentLine[0] + ".";
-  } else{
-    return "There is nobody waiting to be served!";
-  }
-}
