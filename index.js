@@ -6,11 +6,24 @@ function takeANumber (currentLine, customerName){
 }
 
 function nowServing (currentLine){
+  
   if(currentLine.length > 0){
     var announcement = "Currently serving " + currentLine[0] + ".";
   } else{
     announcement = "There is nobody waiting to be served!";
   }
+  
   currentLine.shift();
   return announcement;
+  
 }
+
+function currentLine(line){
+  var annouceAllWaiting = "The line is currently: ;
+  
+  for (let i = 0; i < currentLine.length; i++){
+    annouceAllWaiting = annouceAllWaiting + (i +1) + ". " + currentLine[i];
+  }
+  
+}
+
