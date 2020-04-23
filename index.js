@@ -1,4 +1,4 @@
-Function takeANumber (currentLine, customerName){
+function takeANumber (currentLine, customerName){
   currentPosition = currentLine++;
   console.log("Welcome, " + customerName + ". You are number " + currentPosition + " in line.")
 }
