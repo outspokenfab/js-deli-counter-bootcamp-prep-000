@@ -7,8 +7,8 @@ function takeANumber (currentLine, customerName){
 
 function nowServing (currentLine){
   if(currentLine.length > 0){
-    console.log( "Currently serving " + currentLine[0] + ".");
     currentLine.shift();
+    return "Currently serving " + currentLine[0] + ".";
   } else{
     return "There is nobody waiting to be served!";
   }
