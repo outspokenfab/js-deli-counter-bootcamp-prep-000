@@ -1,4 +1,6 @@
 function takeANumber (currentLine, customerName){
   console.log(currentLine.length)
-  return "Welcome, " + customerName + ". You are number " + currentLine.length+ " in line.";
+  currentLine.push(customerName);
+
+  return "Welcome, " + customerName + ". You are number " + (currentLine.length +1) + " in line.";
 }
