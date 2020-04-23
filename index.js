@@ -5,6 +5,10 @@ function takeANumber (currentLine, customerName){
   return "Welcome, " + customerName + ". You are number " + ((currentLine.length)) + " in line.";
 }
 
-function nowServing (){
-  
+function nowServing (currentLine){
+  if(currentLine.lenght < 0){
+    console.log("Now Serving, " + currentLine[0]);
+  } else (){
+    console.log()
+  }
 }
