@@ -27,5 +27,8 @@ function currentLine (line) {
       annouceAllWaiting = annouceAllWaiting + ",";
     }
   }
+    if(line.length == 0){
+      annouceAllWaiting = "The line is currently empty.";
+    }
   return annouceAllWaiting;
 }
