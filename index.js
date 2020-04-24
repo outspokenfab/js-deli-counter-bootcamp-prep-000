@@ -22,7 +22,7 @@ function currentLine (line) {
   var annouceAllWaiting = "The line is currently:" ;
   
   for (let i = 0; i < line.length; i++){
-    annouceAllWaiting = annouceAllWaiting + " " + ((i +1) + ". " + line[i]);
+    annouceAllWaiting = annouceAllWaiting + " " + ((i +1) + "." + line[i]);
     if( (i+1) != line.length){
       annouceAllWaiting = annouceAllWaiting + ", ";
     }
