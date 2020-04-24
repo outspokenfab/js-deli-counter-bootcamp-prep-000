@@ -24,7 +24,7 @@ function currentLine (line) {
   for (let i = 0; i < line.length; i++){
     annouceAllWaiting = annouceAllWaiting + " " + ((i +1) + ". " + line[i]);
     if( (i+1) != line.length){
-      annouceAllWaiting = annouceAllWaiting + ", ";
+      annouceAllWaiting = annouceAllWaiting + ",";
     }
   }
   return annouceAllWaiting;
